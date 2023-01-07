@@ -1,0 +1,327 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+	font-family: 'Work Sans', sans-serif;
+}
+
+
+/* Header Start */
+
+.header-section{
+	display: flex;
+	flex-direction: column;
+	align-items: end;
+	justify-content: center;
+
+
+
+	background-image: url(../images/banner/banner1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.title{
+	text-align: right;
+	margin-top: 180px;
+	font-weight: 700;
+	font-size: 60px;
+	margin-right: 150px;
+	color: #000000;
+}
+
+
+.desc{
+	text-align: right;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color: #444343;
+	margin-right: 150px;
+}
+
+.button-primary{
+	text-align: right;
+	background: #F15B22;
+	border-radius: 15px;
+	font-weight: 600;
+    font-size: 20px;
+	color: #ffffff;
+	padding: 15px 20px;
+	margin-bottom: 110px;
+	border: 0;
+	cursor: pointer;
+	margin-right: 150px;
+}
+
+.button-primary:hover{
+	color: #F15B22;
+	background-color: #ffffff;
+}
+
+/* Header End */
+
+
+
+/* Failures Section Start */
+
+.failures-section{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 100px;
+}
+
+.failures-section .person{
+	height: 650px;
+	padding-left: 150px;
+}
+
+.failures-details{
+	padding-right: 150px;
+}
+
+.failures-title{
+	font-weight: 700;
+	font-size: 40px;
+	color: #000000;
+}
+
+.failures-description{
+	margin: 30px 0;
+	color: #444343;
+}
+
+.try-success{
+	color: #444343;
+}
+
+
+
+/* Plan Section Start */
+
+.plans{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.plan-topics{
+	display: flex;
+}
+
+.my-plan{
+	margin: 120px auto 60px 650px;
+	font-weight: 700;
+	font-size: 40px;
+	color: #151414;
+}
+
+.plans-main-topics{
+	margin-left: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.topic{
+	font-weight: 700;
+	font-size: 25px;
+	color: #151414;
+	margin: 16px 0;
+}
+
+.start-learn{
+	color: #737272;
+	font-weight: 500;
+	font-size: 20px;
+	margin-bottom: 120px;
+}
+
+
+
+/* Mindset Section Start */
+
+.mindset-section{
+	width: 80%;
+	height: 270px;
+	margin: 0 auto;
+
+}
+
+.positive-mindset{
+	background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(../images/watch.png);
+	background-position: right;
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+	border-radius: 8px;
+	padding: 50px 0 100px 70px;
+}
+
+
+.awalays-positive{
+	font-weight: 700;
+	font-size: 40px;
+	color: #ffffff;
+}
+
+.btn{
+	background-color: #ffffff;
+	color: #F15B22;
+	font-weight: 600;
+	font-size: 20px;
+	border: 0;
+	padding: 15px 20px;
+	border-radius: 10px;
+	margin-top: 30px;
+	cursor: pointer;
+	font-family: 'Inter', sans-serif;
+}
+
+
+
+
+/* Contact Section  Start*/
+
+.contact-section{
+	background-color: #8e44ad;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+	margin: 100px auto 0 auto;
+	padding: 60px 0;
+	border-radius: 10px;
+}
+
+.contact-title{
+	font-size: 45px;
+	color: #ffffff;
+
+}
+
+.hori{
+	width: 16%;
+	margin-bottom: 30px;
+	border-bottom: none;
+}
+
+.contact .your-name[type="text"],.eml[type="email"],.pass[type="password"], textarea{
+	display: block;
+	padding: 15px 40px;
+	width: 100%;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	border: 0;
+	resize: none;
+	font-size: 20px;
+}
+
+.contact .your-name[type="text"]:focus,.eml[type="email"]:focus,.pass[type="password"]:focus, textarea:focus{
+	outline: none;
+}
+
+.submit-btn{
+	border-radius: 15px;
+	font-weight: 600;
+    font-size: 20px;
+	background-color: #F15B22;
+	padding: 15px 35px;
+	border: 0;
+	cursor: pointer;
+	border: 2px solid #F15B22;
+	color: #ffffff;
+}
+
+.submit-btn:hover{
+	border: 2px solid #F15B22;
+	background-color: #ffffff;
+	color: #F15B22;
+}
+
+
+
+/* Footer Start */
+
+footer{
+	background-color: #000000;
+	margin-top: 100px;
+}
+
+.footer-section{
+	display: flex;
+	justify-content: space-around;
+}
+
+.future-plan{
+	padding-left: 120px;
+}
+
+p,h1,h2,h3,h4,a{
+	color: white;
+}
+
+.future{
+	margin-top: 100px;
+	margin-bottom: 16px;
+	font-weight: 700;
+	font-size: 45px;
+}
+
+.gmail{
+	margin-top: 24px;
+	margin-bottom: 16px;
+}
+
+.phone{
+	margin-bottom: 30px;
+}
+
+.image-icons{
+	margin-bottom: 90px;
+	cursor: pointer;
+}
+
+.social{
+	margin-right: 18px;
+}
+
+
+.subscribe-section{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: start;
+}
+
+.subscribe{
+	font-weight: 600;
+	font-size: 25px;
+	margin-bottom: 35px;
+}
+
+.email{
+	padding: 20px 100px 20px 15px;
+	border: 0.2px solid #FFFFFF;
+	border-radius: 8px;
+	background: #151414;
+	color: #ffffff;
+}
+
+.email:focus{
+	outline: none;
+}
+
+.email::placeholder{
+	color: white;
+	text-align: left;
+	font-size: 17px;
+}
+
+
+/* Footer End */
